@@ -1,7 +1,6 @@
-
-                               Online Electronic Store (Full Stack Project)
-                             Online Electronic Store (Full Stack Project) 
-    
+                                    Online Electronic Store (Full Stack Project)
+                            ----------------------------------------------------------------        
+                             
 Project Overview :=
 ===========================
 The Online Electronic Store is a full-stack web application designed to provide users with a seamless experience for browsing, searching, 
