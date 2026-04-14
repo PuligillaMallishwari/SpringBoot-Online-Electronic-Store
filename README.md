@@ -79,7 +79,6 @@ Database (Oracle/MySQL)
 
 🔹 Backend Structure (Spring Boot)
 ====================================
-
 online-electronic-store/
 │
 ├── src/main/java/com/project/
@@ -96,6 +95,7 @@ online-electronic-store/
 │   └── static/
 │
 └── pom.xml
+
 🔹 Frontend Structure
 =============================
 
@@ -113,6 +113,7 @@ frontend/
 │   └── index.js
 │
 └── package.json
+
 🔑 Key Features
 ===========================
 🔐 User Registration & Login
@@ -122,6 +123,7 @@ frontend/
 💳 Order Placement
 🧑‍💼 Admin Product Management
 📦 Order Tracking
+
 ----------*How to Run the Project*-----------------------
 Backend
 ============
