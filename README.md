@@ -1,6 +1,5 @@
                                 Online Electronic Store (Full Stack Project)
                               
-    ********************************************************************************************************
     
 Project Overview :=
 ===========================
@@ -84,7 +83,7 @@ Database (Oracle/MySQL)
 online-electronic-store/
 │
 ├── src/main/java/com/project/
-│   ├── controller/        # REST Controllers
+│   ├── controller/    # REST Controllers
 │   ├── service/           # Business Logic
 │   ├── repository/        # Database Access Layer
 │   ├── entity/            # Model Classes
