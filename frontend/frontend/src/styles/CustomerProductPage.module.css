@@ -1,0 +1,101 @@
+.page {
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  /* Background image */
+  background: url('https://www.discovery.org/m/2021/11/different-modern-devices-on-color-background-stockpack-adobe-stock-scaled.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* HEADER */
+.header {
+  background-color: #1e2a38;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.8rem;
+}
+
+/* CONTAINER */
+.container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 20px;
+}
+
+/* MAIN BOX */
+.contentBox {
+  background: white;
+  border-radius: 15px;
+  padding: 35px 45px;
+  width: 600px;
+  box-shadow: 0 12px 25px rgba(0,0,0,0.2);
+  text-align: left;
+  color: #222;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* HELLO MESSAGE */
+.helloMessage {
+  font-weight: 700;
+  font-size: 1.5rem;
+
+  background: linear-gradient(90deg, #764ba2, #667eea);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  margin-bottom: 30px;
+}
+
+/* PRODUCT ROW */
+.productDetails {
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+/* BUY BUTTON */
+.buyButton {
+  display: inline-block;
+  background-color: #28a745;
+  color: white;
+  padding: 4px 10px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+  box-shadow: 0 4px 8px rgba(40,167,69,0.6);
+  margin-left: 8px;
+  transition: 0.3s ease;
+}
+
+.buyButton:hover {
+  background-color: #218838;
+}
+
+/* LOGOUT BUTTON */
+.logout {
+  display: block;
+  width: 120px;
+  margin: 40px auto 0;
+  background: #dc3545;
+  color: white;
+  text-align: center;
+  padding: 12px;
+  border-radius: 10px;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 6px 12px rgba(220,53,69,0.7);
+  transition: 0.3s ease;
+}
+
+.logout:hover {
+  background: #c82333;
+}
+
+/* FOOTER */

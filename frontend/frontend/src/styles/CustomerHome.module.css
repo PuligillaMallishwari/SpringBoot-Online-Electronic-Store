@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* PAGE BACKGROUND */
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Poppins', Arial, sans-serif;
+
+  background-image: url('https://b1850159.smushcdn.com/1850159/wp-content/uploads/2022/11/best-electronics-stores-in-osaka-scaled.jpg?lossy=1&strip=1&webp=1');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* HEADER */
+.header {
+  background-color: rgba(30, 42, 56, 0.9);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-weight: 600;
+  font-size: 1.8rem;
+  letter-spacing: 1.5px;
+}
+
+/* CENTER CONTAINER */
+.container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 20px;
+}
+
+/* CONTENT BOX */
+.contentBox {
+  background: rgba(0, 0, 0, 0.85);
+  border-radius: 15px;
+  padding: 35px 45px;
+  width: 600px;
+  box-shadow: 0 12px 25px rgba(0,0,0,0.7);
+  text-align: center;
+  color: #ddd;
+}
+
+/* WELCOME TEXT */
+.welcomeText {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #eee;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.9);
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* LINKS (buttons style) */
+.link {
+  display: inline-block;
+  margin: 12px 25px;
+  padding: 12px 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  color: white;
+  background: linear-gradient(45deg, #764ba2, #667eea);
+  border-radius: 10px;
+  text-decoration: none;
+  box-shadow: 0 6px 12px rgba(102,126,234,0.6);
+  transition: 0.3s ease;
+}
+
+.link:hover {
+  background: linear-gradient(45deg, #667eea, #764ba2);
+}
+
+/* FOOTER */
+.footer {
+  background-color: rgba(30, 42, 56, 0.9);
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}

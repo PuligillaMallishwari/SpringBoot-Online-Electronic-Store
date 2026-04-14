@@ -1,0 +1,86 @@
+/* Page wrapper instead of body */
+.page {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    min-height: 100vh;
+}
+
+/* Header */
+.header {
+    background-color: #1e2a38;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Main container */
+.dashboardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 20px;
+}
+
+/* White box */
+.welcomeBox {
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    width: 420px;
+    text-align: center;
+}
+
+/* Message */
+.welcomeMsg {
+    font-size: 20px;
+    color: #1e2a38;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+/* Common button style */
+.button {
+    display: block;
+    background-color: #007bff;
+    color: white;
+    padding: 12px 0;
+    margin: 10px auto;
+    width: 190px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+/* Hover */
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Delete button override */
+.deleteBtn {
+    background-color: #dc3545;
+}
+
+.deleteBtn:hover {
+    background-color: #b02a37;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #1e2a38;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}

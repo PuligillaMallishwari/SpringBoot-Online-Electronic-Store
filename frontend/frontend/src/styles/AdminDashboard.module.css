@@ -1,0 +1,94 @@
+.header {
+  background-color: #1e2a38;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+/* MAIN CONTAINER */
+.dashboardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px 20px;
+  min-height: 80vh;
+}
+
+/* WELCOME BOX */
+.welcomeBox {
+  background-color: white;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  width: 420px;
+  text-align: center;
+}
+
+/* WELCOME MESSAGE */
+.welcomeMsg {
+  font-size: 20px;
+  color: #1e2a38;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+
+/* LINK BASE STYLE (Add Product / View Product) */
+.link {
+  display: block;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  padding: 12px 0;
+  margin: 10px auto;
+  width: 190px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* LINK HOVER */
+.link:hover {
+  background-color: #0056b3;
+  transform: scale(1.03);
+}
+
+/* SPECIAL BUTTON LINK (Logout) */
+.buttonLink {
+  display: block;
+  text-decoration: none;
+  padding: 12px 0;
+  margin: 10px auto;
+  width: 190px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  transition: 0.3s ease;
+}
+
+/* LOGOUT STYLE */
+.logout {
+  background-color: #0056b3;
+  color: white;
+}
+
+.logout:hover {
+  background-color: darkred;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #1e2a38;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 14px;
+}

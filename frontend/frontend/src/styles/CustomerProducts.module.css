@@ -1,0 +1,126 @@
+.page {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to right, #667eea, #764ba2);
+}
+
+/* HEADER */
+.header {
+  background-color: #1e2a38;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 28px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* MAIN CONTAINER */
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* GREETING */
+.greeting {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* PRODUCT CARD */
+.productCard {
+  background: #f1f4fb;
+  padding: 15px 20px;
+  border-radius: 8px;
+  margin: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+}
+
+/* PRODUCT INFO */
+.productInfo {
+  flex: 1;
+  color: #333;
+}
+
+/* BUTTON GROUP */
+.buttonGroup {
+  display: flex;
+  gap: 10px;
+}
+
+/* BASE BUTTON */
+.btn {
+  padding: 8px 15px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 14px;
+  color: white;
+  transition: 0.3s ease;
+}
+
+/* EDIT BUTTON */
+.edit {
+  background-color: #ffc107;
+  color: black;
+}
+
+.edit:hover {
+  background-color: #e0a800;
+}
+
+/* DELETE BUTTON */
+.delete {
+  background-color: #dc3545;
+}
+
+.delete:hover {
+  background-color: #b52a37;
+}
+
+/* NO PRODUCTS */
+.noProducts {
+  text-align: center;
+  padding: 20px;
+  background: #fff3cd;
+  border-radius: 8px;
+  color: #856404;
+  font-weight: bold;
+}
+
+/* FOOTER ACTIONS */
+.footerActions {
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* LOGOUT BUTTON */
+.logout {
+  background: crimson;
+}
+
+.logout:hover {
+  background: darkred;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #1e2a38;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9rem;
+  letter-spacing: 1px;
+}

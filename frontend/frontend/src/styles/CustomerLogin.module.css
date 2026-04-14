@@ -1,0 +1,119 @@
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+
+  /* background from HTML version */
+  background: url('https://i.pinimg.com/originals/b5/eb/1d/b5eb1d9579f638a6fc7b19cd11b69b49.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/* HEADER (from both, unified) */
+.header {
+  background-color: #1e2a38;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+/* CENTER LOGIN AREA */
+.loginContainer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* LOGIN BOX */
+.loginBox {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+  width: 320px;
+  color: white;
+  text-align: center;
+}
+
+/* TITLE */
+.loginBox h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #ffffff;
+}
+
+/* LABEL (added from HTML version) */
+.loginBox label {
+  display: block;
+  text-align: left;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+/* INPUTS */
+.loginBox input {
+width: 300px;
+   
+  padding: 10px;
+  margin: 10px 0 20px 0;
+  border-radius: 6px;
+  font-size: 16px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.85);
+  color: #222;
+}
+
+/* PLACEHOLDER */
+.loginBox input::placeholder {
+  color: #666;
+}
+
+/* BUTTON (converted from input submit) */
+.loginBox input[type="submit"],
+.loginBox button {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.loginBox input[type="submit"]:hover,
+.loginBox button:hover {
+  background-color: #0056b3;
+}
+
+/* LINKS */
+.links {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.links a {
+  color: #66a0ff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.links a:hover {
+  color: #aabfff;
+}
+
+/* FOOTER */
+.footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #1e2a38;
+  color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 0.9rem;
+}

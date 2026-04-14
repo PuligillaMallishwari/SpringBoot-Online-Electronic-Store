@@ -1,0 +1,98 @@
+/* Page wrapper instead of body */
+.page {
+    font-family: Arial, sans-serif;
+    background-color: #f5f7fa;
+    min-height: 100vh;
+}
+
+/* Header */
+.header {
+    background-color: #1e2a38;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    font-size: 32px;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+}
+
+/* Main container */
+.dashboardContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+/* White box */
+.welcomeBox {
+    max-width: 400px;
+    width: 100%;
+    background: white;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.12);
+    text-align: center;
+}
+
+/* Message */
+.welcomeMsg {
+    color: #1e2a38;
+    margin-bottom: 25px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+/* Labels */
+.label {
+    display: block;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    color: #1e2a38;
+}
+
+/* Inputs */
+.input {
+    width: 100%;
+    padding: 12px 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 500;
+    outline: none;
+}
+
+.input:focus {
+    border-color: #007bff;
+}
+
+/* Button */
+.updateBtn {
+    width: 100%;
+    padding: 14px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.updateBtn:hover {
+    background-color: #0056b3;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1e2a38;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

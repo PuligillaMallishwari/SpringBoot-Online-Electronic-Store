@@ -1,0 +1,71 @@
+.page {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background-color: #f0f2f5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* HEADER */
+.header {
+  background-color: #1e2a38;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* CENTER CONTAINER */
+.dashboardContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 75vh;
+  flex: 1;
+}
+
+/* DASHBOARD BOX */
+.dashboardBox {
+  background-color: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  width: 350px;
+}
+
+/* TITLE */
+.dashboardBox h2 {
+  color: #1e2a38;
+  margin-bottom: 30px;
+}
+
+/* LINK BUTTONS */
+.link {
+  display: block;
+  margin: 15px 0;
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-size: 18px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* HOVER EFFECT */
+.link:hover {
+  background-color: #0056b3;
+  transform: scale(1.03);
+}
+
+/* FOOTER */
+.footer {
+  background-color: #1e2a38;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
